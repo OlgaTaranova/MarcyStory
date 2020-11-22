@@ -56,7 +56,9 @@ html {
 
 .story1 {
     padding-top: 16rem;
+    padding-bottom: 10rem;
     display: flex;
+    width: 40%;
 }
 .info_type {
     margin-bottom: 2rem;
@@ -66,26 +68,45 @@ html {
     color: gray;
 }
 .section_title {
-    font: 2rem 'Times New Roman', serif;
-    margin-bottom: 3rem;
+    font: 4rem 'Times New Roman', serif;
+    margin-bottom: 6rem;
 }
 .text {
-    font: 1.3rem 'Times New Roman', serif;
-    margin-bottom: 2rem;
+    font: 2rem/3rem 'Times New Roman', serif;
+    margin-bottom: 4rem;
 }
 .story1 img {
     border: 10px solid white;
     box-shadow: 0px 0px 1px 1px rgba(4, 8, 10, 0.2);
 }
 .story1 img[alt="Ocean"] {
-        width: 82rem;
-        height: 45rem;
-        margin-left: 49rem;
+    width: 82rem;
+    height: 45rem;
+    position: absolute;
+    left: 70rem;
+    top: 25rem;
 }
 .story1 img[alt="Girl"] {
-    width: 40rem;
-    height: 25rem;
+    width: 32rem;
+    height: 22rem;
     position: absolute;
-    right: 35rem;
+    right: 45rem;
     top: 31rem;
+}
+.btn {
+    width: 19rem;
+    height: 4rem;
+    border-radius: 5rem;
+    border: none;
+    background-color: rgb(114, 177, 156);
+    color: white;
+    text-transform: uppercase;
+    font: 1.5rem Arial, sans-serif;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(87, 134, 118);
+}
+.story2 {
+    padding-top: 5rem;
 }
