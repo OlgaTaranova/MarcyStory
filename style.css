@@ -53,3 +53,39 @@ html {
     font-size: 4.5rem;
     box-shadow: 0px 16px 6px -10px rgba(34, 60, 80, 0.51);
 }
+
+.story1 {
+    padding-top: 16rem;
+    display: flex;
+}
+.info_type {
+    margin-bottom: 2rem;
+    font: 1.2rem Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: gray;
+}
+.section_title {
+    font: 2rem 'Times New Roman', serif;
+    margin-bottom: 3rem;
+}
+.text {
+    font: 1.3rem 'Times New Roman', serif;
+    margin-bottom: 2rem;
+}
+.story1 img {
+    border: 10px solid white;
+    box-shadow: 0px 0px 1px 1px rgba(4, 8, 10, 0.2);
+}
+.story1 img[alt="Ocean"] {
+        width: 82rem;
+        height: 45rem;
+        margin-left: 49rem;
+}
+.story1 img[alt="Girl"] {
+    width: 40rem;
+    height: 25rem;
+    position: absolute;
+    right: 35rem;
+    top: 31rem;
+}
