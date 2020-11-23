@@ -7,8 +7,9 @@ html {
     font-size: 10px;
 }
 .content_wrapper {
-    width: 80%;
+    width: 100vw;
     margin: 0 auto;
+    padding-left: 10%;
 }
 .header {
     padding-top: 5rem;
@@ -58,7 +59,6 @@ html {
     padding-top: 16rem;
     padding-bottom: 10rem;
     display: flex;
-    width: 40%;
 }
 .info_type {
     margin-bottom: 2rem;
@@ -75,22 +75,22 @@ html {
     font: 2rem/3rem 'Times New Roman', serif;
     margin-bottom: 4rem;
 }
-.story1 img {
+img {
     border: 10px solid white;
     box-shadow: 0px 0px 1px 1px rgba(4, 8, 10, 0.2);
 }
 .story1 img[alt="Ocean"] {
     width: 82rem;
     height: 45rem;
-    position: absolute;
-    left: 70rem;
-    top: 25rem;
+    position: relative;
+    right: -5%;
+    
 }
 .story1 img[alt="Girl"] {
     width: 32rem;
     height: 22rem;
     position: absolute;
-    right: 45rem;
+    right: 48rem;
     top: 31rem;
 }
 .btn {
@@ -108,5 +108,26 @@ html {
     background-color: rgb(87, 134, 118);
 }
 .story2 {
-    padding-top: 5rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story2 .section_title {
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.story2 img {
+    width: 85%;
+    height: 85%;
+    margin-bottom: 8rem;
+}
+.travel2_content {
+    width: 75%;
+    margin-bottom: 8rem;
+}
+.story2 img[alt="Mountains video"] {
+    border: none;
+    width: 130vw;
 }
