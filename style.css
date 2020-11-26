@@ -203,6 +203,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 60%;
+    max-width: 85rem;
     margin: 0 auto;
     padding: 5rem 5% 7rem;
     background-color: rgba(46, 63, 62, 0.9);
@@ -217,6 +218,7 @@ img {
 }
 .input_wrapper {
     width: 100%;
+    max-width: 60rem;
     display: flex;
     justify-content: space-around;
     margin-bottom: 4rem;
@@ -240,4 +242,68 @@ letter-spacing: 4px;}
 }
 .response .btn {
     width: 22rem;
+}
+   
+@media (max-width: 768px) {
+    .page_name {
+        width: 100%;
+        left: 0;
+    }
+    .page_name h1 {
+        font-size: 5rem;
+        letter-spacing: 2rem;
+        padding-top: 12rem;
+        padding-left: 20%;
+    }
+    .page_name div {
+        left: 25%;
+    }
+    .story1 {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .story1__pictureConteiner {
+        position: static;
+        padding-left: 0rem;
+        padding-top: 4rem;
+        width: 80%;
+        height: 80%;
+    }
+    .section_title, .text {
+        padding-right: 5%;
+    }
+    
+    .story1 img, .story2 img, .quote img {
+      display: none;
+    }
+    .quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .blockquote {
+        width: 90%;
+        margin-bottom: 3rem;
+        padding: 5%;
+        position: static;
+    
+    }
+    .quote_btn {
+        position: static;
+    }
+    .form {
+        width: 90%;
+    }
+    .form p {
+        padding: 0 5% 3rem;
+    }
+    .input_wrapper {
+        flex-direction: column;
+        min-height: 10rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
 }
