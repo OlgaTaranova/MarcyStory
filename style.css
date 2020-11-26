@@ -147,6 +147,9 @@ img {
     padding-bottom: 10rem;
     position: relative;
 }
+.quote_content {
+    margin-bottom: -4rem;
+}
 .quote img {
     width: 30%;
     height: 25%;
@@ -160,11 +163,10 @@ img {
 .blockquote {
     width: 60%;
     box-shadow: 0px 2px 20px -4px rgba(157, 157, 157, 0.67);
-    margin-bottom: -3.5rem;
+    margin-bottom: -2rem;
     padding: 9rem;
     position: relative;
-    top: -1.5rem;
-    left: -19%;
+    left: 10rem;
     background: #fff;
 }
 .blockquote q {
@@ -187,9 +189,55 @@ img {
 }
  .quote_btn { 
     position: relative;
-    left: 40%;
+    left: 30%;
 }
-.updates {
+.response {
+    min-height: 45rem;
+    background: url(images/forest.jpg) no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem 5% 7rem;
+    background-color: rgba(46, 63, 62, 0.9);
+}
+.form p {
+    padding: 0 20%;
+    padding-bottom: 4rem;
+    font: 1.8rem Arial, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 3rem;
+}
+.input_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.response input {
+    width: 25rem;
+    height: 4rem;
+    padding: 2rem;
+    border-radius: 5rem;
+    border: 1px solid #848484;
+    background-color: rgba(26, 35, 35, 0.82);
+    color: white;
     
 }
-
+.response input::-webkit-input-placeholder {color: white;
+letter-spacing: 4px;}
+.response input::-moz-placeholder          {color: white;}
+.response input:-ms-input-placeholder      {color: white;}
+.response input:focus {
+    outline: none;
+}
+.response .btn {
+    width: 22rem;
+}
